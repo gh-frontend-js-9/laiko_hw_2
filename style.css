@@ -1,0 +1,244 @@
+body{
+	margin: 0px;
+	font-family: lato;
+}
+.center{
+	text-align: center; 
+}
+div.cookies1{
+	background-color: #194277;
+	height: 62px;
+}
+div.cookies2{
+	padding-top: 15px;
+}
+span{
+	color: white;
+}
+button{
+	margin-left: 67px;
+	width: 112px;
+	height: 30px;
+	color: #194277;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+section.header{
+	background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+	height: 640px;
+	background-color: #3695ff;
+}
+section.header div.menu a.menu_button{
+	cursor: pointer;
+	position: absolute;
+	top: 70px;
+	right: 65px;
+	z-index: 10;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+section.header div.menu a.menu_button span.menu_lines,
+span.menu_lines::after,
+span.menu_lines::before{
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	background-color: white;
+}
+section.header div.menu a.menu_button span.menu_lines{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+section.header div.menu a.menu_button span.menu_lines::before{
+	content: '';
+	top: -6px;
+}
+section.header div.menu a.menu_button span.menu_lines::after{
+	content: '';
+	top: 6px;
+}
+li{
+	list-style-type: none;
+}
+a.menu1{
+	text-decoration: none;
+	color: white;
+}
+.menu_point{
+	right: 100px;
+	top: 80px;
+	display: none;
+	position: absolute;
+}
+.menu:hover .menu_point{
+		display: block;
+}
+div.krug{
+    margin-top: 70px;
+    margin-left: 45%;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 164px;
+    height: 164px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.09);
+
+}
+.krug_shadow{
+    display: inline-block;
+    border-radius: 50%;
+    width: 164px;
+    height: 164px;
+     box-shadow: 0px 0px 0px 20px rgba(255,255,255,0.06);
+}
+section.header span{
+	margin-top: 15px;
+	display:inline-block;
+    font-family: "Lato";
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+section.header p{
+	text-transform: uppercase;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1.25px;
+}
+section.header button{
+	border-radius: 28px;
+	height: 40px;
+	width: 200px;
+	margin-left: 45%; 
+	margin-top: 35px;
+	color: #3695ff;
+	font-size: 20px;
+}
+section.about_me{
+	height: 220px;
+}
+section span.arrow{
+	margin-top: 90px;
+	color: #8bbffe;
+	margin-left: 52%;
+}
+section.about_me h2{
+	font-size: 38px;
+	color: #3695ff;
+}
+section.about_me p{
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+section.expert_in{
+	background-color: #f1f8ff;
+	height: 1080px;
+}
+section.expert_in h2{
+	margin-bottom: 55px;
+	padding-top: 35px;
+	color: #3695ff;
+	font-size: 38px;
+}
+section.expert_in .krugi{
+	display: flex;
+}
+section.expert_in div.krugi div.krugg{
+	border:1px solid silver;
+	border-radius: 50%;
+	margin-left: 150px;
+	height: 240px;
+	width: 240px;
+}
+section.expert_in div.krugi div.krugg img{
+	margin-top: 40px;
+	height: 150px;
+}
+section.expert_in div.text_block{
+	text-align: center;
+	display: flex;
+}
+section.expert_in div.text_block{
+	height: 250px;
+	margin-left: 85px;
+	width: 1150px;
+}
+section.expert_in div.text_block h1{
+	color: #3695ff;
+	text-transform: uppercase;
+}
+section.expert_in div.text_block p{
+	color: grey;
+}
+section.latest_works{
+	height: 570px;
+}
+section.latest_works h2{
+	color:#3695ff;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 38px;
+}
+section.latest_works div.img_works , .img_works2{
+	margin-bottom: 38px;
+	display: flex;
+}
+section.latest_works div.img_works div ,div.img_works2 div{
+	background-color: #f4f4f4;
+	border: 1px solid #f4f4f4;
+	margin-left: 40px;
+	height: 160px;
+	width: 395px;
+}
+section.latest_works div.img_works div img{
+	margin-top: 13px;
+	margin-left: 20%;
+}
+section.latest_works div.img_works2 div img{
+	margin-top: 5px;
+	margin-left: 20%;
+}
+section.clients{
+	height:223px;
+	background-color: #f1f8ff;
+}
+section.clients h2{
+	padding-top: 30px;
+
+	color:#3695ff;
+	font-size: 38px;
+}
+section.clients div.logo_image{
+	display: flex;
+}
+section.clients div.logo_image div{
+	margin-left: 90px;
+}
+section.clients div.logo_image div img{
+	height: 85px;
+	width: 220px;
+}
+section.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+	background-color: #3695ff;
+	height: 150px;
+}
+section.footer span{
+	 font-size: 35px;
+}
+section.footer button{
+	height: 35px;
+	width: 150px;
+	font-size: 12px;
+}
+section.footer button span{
+	color: #3695ff;
+	font-size: 17px;
+}
